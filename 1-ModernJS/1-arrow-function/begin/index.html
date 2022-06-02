@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Modern JS Essentials for React</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Mohammed Elzanaty">
+  <link rel="icon"
+    href="https://cdn-icons.flaticon.com/png/512/4726/premium/4726005.png?token=exp=1654158276~hmac=75e5b0835cff1af139af2ff074548af0"
+    type="image/png" />
+  <style>
+    body {
+      font-family: 'Raleway', Helvetica, arial, sans-serif;
+      font-size: 17px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h2 {
+      font-weight: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <h2></h2>
+  <script src="index.js"></script>
+  <script>
+    const messages = [
+      "IT'S CONSOLE TIME 👇 🧑🏻‍💻",
+      'CHECK OUT THE CONSOLE 👇 🧑🏻‍💻',
+      'THE GOOD STUFF IS IN THE CONSOLE 👇 🧑🏻‍💻',
+      'OHHH. LOOK AT THE CONSOLE 👇 🧑🏻‍💻',
+      'GET TO CONSOLE 👇 🧑🏻‍💻'
+    ];
+    const randomMessage =
+      messages[Math.trunc(Math.random() * messages.length)];
+    document.querySelector("h2").innerHTML = randomMessage;
+  </script>
+</body>
+
+</html>
