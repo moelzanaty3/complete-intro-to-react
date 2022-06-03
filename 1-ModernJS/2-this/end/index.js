@@ -2,10 +2,6 @@
 // The environment (or scope) in which the line is being executed is known as the execution context.
 // The object this refers to changes every time the execution context is changed.
 
-// this = current execution context
-// The environment (or scope) in which the line is being executed is known as the execution context.
-// The object this refers to changes every time the execution context is changed.
-
 // "use strict";
 
 const mohammedElzanaty = { fullName: "Mo. Elzanaty" };
