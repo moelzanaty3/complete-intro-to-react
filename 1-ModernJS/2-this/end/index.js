@@ -9,6 +9,8 @@ const younesMohammed = { fullName: "Younes Mohammed" };
 const farahMohammed = { fullName: "Farah Mohammed" };
 
 function sayMyName(greeting) {
+  // "[object Window]"  the owner of the func is the default binding for this.
+  // "undefined" in strict mode because a JS func with strict mode, JavaScript does not allow default binding.
   console.log(this);
   return greeting + " " + this.fullName;
 }
