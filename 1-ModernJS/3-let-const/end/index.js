@@ -3,7 +3,9 @@
 //   var: scoped to the function scope
 //   let: scoped to the block scope
 //   const: scoped to the block scope
-
+// Hoisting - https://developer.mozilla.org/en-US/docs/Glossary/Hoisting#variable_hoisting
+//   var: The default initialization of the var is undefined
+//   let: it's hoisted but it's unlike var, are not initialized with a default value.
 function scopeTest() {
   var outerVar = "outer var";
   let outerLet = "outer let";
