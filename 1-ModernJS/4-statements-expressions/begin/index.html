@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Modern JS Essentials for React</title>
+  <meta charset="UTF-8" />
+  <meta name="author" content="Mohammed Elzanaty">
+  <link rel="icon"
+    href="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png"
+    type="image/png" />
+  <style>
+    body {
+      font-family: 'Raleway', Helvetica, arial, sans-serif;
+      font-size: 17px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    h2 {
+      font-weight: normal;
+    }
+  </style>
+</head>
+
+<body>
+  <h2></h2>
+  <script src="index.js"></script>
+  <script>
+    const messages = [
+      "IT'S CONSOLE TIME 👇 🧑🏻‍💻",
+      'CHECK OUT THE CONSOLE 👇 🧑🏻‍💻',
+      'THE GOOD STUFF IS IN THE CONSOLE 👇 🧑🏻‍💻',
+      'OHHH. LOOK AT THE CONSOLE 👇 🧑🏻‍💻',
+      'GET TO CONSOLE 👇 🧑🏻‍💻'
+    ];
+    const randomMessage =
+      messages[Math.trunc(Math.random() * messages.length)];
+    document.querySelector("h2").innerHTML = randomMessage;
+  </script>
+</body>
+
+</html>
